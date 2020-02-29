@@ -52,7 +52,7 @@ while True:
         time.sleep(1)
         bounce = True
 
-    if abs(kinYSpeed + yspeed) < 10 and bounce == True:
+    if abs(kinYSpeed + yspeed) < 2 and bounce == True:
         kinYSpeed = 0
         yspeed = 0
         t = 0
