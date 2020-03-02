@@ -49,7 +49,9 @@ while True:
         t = 0
         kinYSpeed = -yspeed
         yspeed = 0
-        time.sleep(1)
+        #time.sleep(1)
+        #can make the ball stop for a while
+        #when it hits the ground
         bounce = True
 
     if abs(kinYSpeed + yspeed) < 2 and bounce == True:
